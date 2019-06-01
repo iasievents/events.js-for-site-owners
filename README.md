@@ -1,5 +1,5 @@
 # events.js for site owners
-#### Easily fetch events from [IAȘI events](https://iasievents.ro) platform and render them on your website.
+#### Easily fetch events from [IAȘI events](https://iasievents.ro) platform and display them on your website.
 
 ### Usage
 ```js
