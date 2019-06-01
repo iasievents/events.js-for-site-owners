@@ -165,6 +165,11 @@ class Events {
         else if (this.filters.search) {
             return `${this.api}search/${this.filters.search}/?${queryString}`;
         }
+
+        // No filters
+        else {
+            return `${this.api}search/?${queryString}`;
+        }
     }
 
     /**
